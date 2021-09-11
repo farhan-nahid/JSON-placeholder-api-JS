@@ -19,8 +19,8 @@ const loadUser = (data) => {
                 <h3> Name: ${user.name}</h3>
                 <h4> Roll: ${user.username}</h4>
                 <h5> Email: ${user.email}</h5>
-                <h6> Name: ${user.phone}</h6>
-                <h6> Email: ${user.website}</h6>
+                <h5> Phone: ${user.phone}</h5>
+                <h5> Website: ${user.website}</h5>
     `;
     userContainer.appendChild(div);
   }
