@@ -11,7 +11,6 @@ document.getElementById("load__user").addEventListener("click", () => {
 const loadUser = (data) => {
   const userContainer = document.getElementById("user__container");
   for (const user of data) {
-    console.log(user);
     const div = document.createElement("div");
     div.classList.add("single__user");
     div.innerHTML = `
